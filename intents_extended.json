@@ -1,0 +1,99 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Good morning",
+                "Good evening",
+                "What's up?",
+                "How are you?",
+                "Howdy"
+            ],
+            "responses": [
+                "Hello there!",
+                "Hi, how can I help?",
+                "Hey! Ask me anything!",
+                "Welcome!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "Tell me the forecast",
+                "Will it rain today?",
+                "Do I need an umbrella?",
+                "Is it sunny?",
+                "Weather update",
+                "Show me today's weather",
+                "Forecast for tomorrow"
+            ],
+            "responses": [
+                "It's sunny and warm today!",
+                "Expect rain later in the afternoon.",
+                "Clear skies all day long!",
+                "Cloudy with chances of rain."
+            ]
+        },
+        {
+            "tag": "covid_info",
+            "patterns": [
+                "What's the COVID situation?",
+                "Give me COVID updates",
+                "Is COVID still spreading?",
+                "Corona news?",
+                "COVID cases today",
+                "Any lockdowns?",
+                "Travel restrictions?",
+                "Quarantine rules?"
+            ],
+            "responses": [
+                "COVID cases are declining.",
+                "No lockdowns currently in place.",
+                "Masks are recommended indoors.",
+                "Travel is allowed with precautions."
+            ]
+        },
+        {
+            "tag": "restaurant_recommendation",
+            "patterns": [
+                "Suggest a good restaurant",
+                "Where can I eat nearby?",
+                "Best place to dine?",
+                "Any good food spots?",
+                "Where should I eat?",
+                "Top restaurants?",
+                "Hungry, any suggestions?",
+                "Recommend me food"
+            ],
+            "responses": [
+                "Try The Spice Lounge nearby!",
+                "How about Olive Bistro?",
+                "I recommend Banana Leaf Restaurant.",
+                "You\u2019ll love the food at Murugan Idli Shop!"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "I want something funny",
+                "Say a joke",
+                "Cheer me up",
+                "Crack a joke",
+                "Make me smile",
+                "Fun time"
+            ],
+            "responses": [
+                "Why did the tomato turn red? Because it saw the salad dressing!",
+                "Why don\u2019t scientists trust atoms? Because they make up everything!",
+                "I told my computer I needed a break, and it said \u2018No problem. I\u2019ll go to sleep.\u2019",
+                "Parallel lines have so much in common. It\u2019s a shame they\u2019ll never meet."
+            ]
+        }
+    ]
+}
